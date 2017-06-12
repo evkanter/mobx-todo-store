@@ -1,0 +1,60 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TodoList /> renders matches previous todo list snapshot 1`] = `
+<section
+  className="todo-list-container"
+>
+  <div
+    className="todo-list"
+  >
+    <h1>
+      My Todo List
+    </h1>
+    <form>
+      <table>
+        <thead>
+          <tr>
+            <th
+              className="small"
+            >
+              date
+            </th>
+            <th>
+              to do
+            </th>
+            <th
+              className="small"
+            >
+              ✓
+            </th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td />
+            <td />
+            <td>
+              <input
+                name="todo-1"
+                type="checkbox"
+                value="checked"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td />
+            <td />
+            <td>
+              <input
+                name="todo-2"
+                type="checkbox"
+                value="checked"
+              />
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </form>
+  </div>
+</section>
+`;

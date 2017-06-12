@@ -1,0 +1,92 @@
+.todo-list-container {
+    width: $fn-container-width;
+    height: auto;
+    margin: 0 auto;
+    padding: 10px;
+    position: relative;
+}
+.todo-list {
+    background-color: $fn-todo-table-background-color;
+    border: 1px solid $fn-todo-table-color;
+    color: $fn-todo-table-color;
+    text-align: center;
+    border-radius: 10px 10px 0 0;
+    h1 {
+        font-size: 16px;
+        font-weight: bold;
+    }
+    table {
+        width: 100%;
+        background-color: $fn-todo-table-background-color;
+        border-top: 1px solid $fn-todo-table-color;
+        color: $fn-todo-table-color;
+        text-align: center;
+        border-collapse:separate; 
+        border-spacing:0 0;
+        thead {
+            background-color: $fn-todo-table-header-color;
+            color: $fn-black;
+            text-align: center;
+        }
+        tbody {
+            background-color: $fn-todo-table-background-color;
+            color: $fn-black;
+            text-align: center;
+            tr > td:not(:last-child) {
+                border-right: 1px solid $fn-todo-table-color;
+            }
+            tr > td {
+                border-top: 1px solid $fn-todo-table-color;
+            }
+            tr.grey-row > td {
+                background-color: #999999;
+                border-right: 0;
+            }
+        }
+    }
+    .small {
+        width: $fn-row-width-small;
+    }
+    .button-bar {
+        text-align: right;
+    }
+    button {
+        width: 200px;
+        border: 1px solid #000000;
+        margin: 5px;
+        padding: 5px;
+        text-align:center;
+    }
+    button.small {
+        width: $fn-row-width-button-small;
+        padding: 8px;
+    }
+    button:disabled {
+        border: 1px solid #666666;
+    }
+    input[type='text'], input[type='date'] {
+        border:1px solid #000000;
+        padding:5px;
+        display: inline-block;
+        float: left;
+        height: 20px;
+        margin:5px;
+        background-color: #FFFFFF;
+        text-align: center;
+        &.fullsize {
+            width:94%;
+        }
+      }
+    input[type='checkbox'] {
+        border:1px solid #000000;
+        width: 20px;
+        background-color: #FFFFFF;
+        text-align: center;
+        margin:5px;    
+    }
+    td.checkbox-container {
+        text-align: center;
+        vertical-align: middle;
+        border-left: 0;
+    }
+}
