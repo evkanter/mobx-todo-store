@@ -1,5 +1,5 @@
 {
-  "name": "front-end-boot-camp",
+  "name": "mobx-todo-store",
   "version": "1.0.0",
   "main": "index.jsx",
   "scripts": {

@@ -1,2 +1,2 @@
-# front-end-boot-camp
-let's experiment"# mobx-todo-store" 
+A MobX based Todo Store
+by Evan Kanter
